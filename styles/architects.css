@@ -5,7 +5,7 @@
 /* Styles header, nav, banner */
 header {
     background-color: rgba(255, 144, 14, 0.10);
-    padding: 50px 240px;
+    padding: 50px 100px;
 }
 
 /* nav */
@@ -74,6 +74,52 @@ nav li a {
     margin-top: 50px;
 }
 
+/* Styles main section here */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+main section{
+    margin-bottom: 130px;
+}
+
+/* team section */
+.teams-container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.teams-img-cotainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.teams-img-cotainer img{
+    width: 342px;
+}
+.content-title {
+    font-size: 2.813rem;
+    color: #131313;
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+.content-title-style1{
+    font-weight: 500;
+    color: #727272;
+}
+.content-title-style2{
+    color: #FF900E;
+}
+.content-description {
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 0;
+}
 
 
 
@@ -98,3 +144,5 @@ nav li a {
     }
     
 }
+
+
