@@ -169,6 +169,19 @@ main section{
     align-items: center;
 }
 
+/* footer section */
+.footer{
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(255, 144, 14, 0.10);
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.footer-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #424242;
+}
 
 
 /* Responsive mobile device */
@@ -177,7 +190,8 @@ main section{
         padding: 20px 10px;
     }
     nav,
-    .facts-cards-container
+    .facts-cards-container,
+    .sponsors-img
     {
         flex-direction: column;
     }
@@ -197,11 +211,11 @@ main section{
         gap: 20px;
         align-items: center;
     }
-    /* .facts-cards{
-        width: 100%;
-    } */
     .facts-container{
         text-align: center;
+    }
+    .sponsors-img{
+        gap: 60px;
     }
     
 }
