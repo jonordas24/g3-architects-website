@@ -157,6 +157,20 @@ main section{
     font-weight: 600;
     margin: 0;
 }
+
+/* sponsors section */
+.sponsors-container{
+    text-align: center;
+}
+.sponsors-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+
+
+
 /* Responsive mobile device */
 @media screen and (max-width: 576px) {
     header{
