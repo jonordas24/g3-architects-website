@@ -130,6 +130,7 @@ main section{
 .facts-cards-container{
     display: flex;
     justify-content: space-between;
+    margin-top: 80px;
     /* gap: 124px; */
 }
 .facts-cards{
@@ -161,7 +162,9 @@ main section{
     header{
         padding: 20px 10px;
     }
-    nav{
+    nav,
+    .facts-cards-container
+    {
         flex-direction: column;
     }
     nav>ul{
@@ -175,6 +178,16 @@ main section{
     }
     .teams-img-cotainer{
         grid-template-columns: 1fr;
+    }
+    .facts-cards-container{
+        gap: 20px;
+        align-items: center;
+    }
+    /* .facts-cards{
+        width: 100%;
+    } */
+    .facts-container{
+        text-align: center;
     }
     
 }
@@ -196,7 +209,10 @@ main section{
     .teams-content{
         text-align: center;
     }
-     
+    .facts-cards-container{
+        gap: 20px;
+        align-items: center;
+    }
 }
 
 
